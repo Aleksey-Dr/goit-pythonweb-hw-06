@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+alembic = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
+faker = "*"
+argparse = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
